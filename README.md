@@ -32,11 +32,11 @@ accepts these credentials and calls `done` providing a user, as well as
             callbackURL: 'http://localhost:3000/auth/tosan/callback'
         },
         function (accessToken, profile, done) {
-           // profile contains :
+           // profile contains user profile also below items
            //    access-token, 
-           //    refresh-token(if you have access), 
+           //    refresh-token( If you have access to get refresh token ), 
            //    scopes, 
-           //    expiresIn( Token Expire Timte)
+           //    tokenExpiresIn ( Token Expire Time )
         }
     );
 
