@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "passport-tosan@^0.1.2",
+        "scope": null,
+        "escapedName": "passport-tosan",
+        "name": "passport-tosan",
+        "rawSpec": "^0.1.2",
+        "spec": ">=0.1.2 <0.2.0",
+        "type": "range"
+      },
+      "/Users/alireza/Workspace/Nivo/Nivo-BackendAPI"
+    ]
+  ],
+  "_from": "passport-tosan@>=0.1.2 <0.2.0",
+  "_id": "passport-tosan@0.1.2",
+  "_inCache": true,
+  "_location": "/passport-tosan",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/passport-tosan-0.1.2.tgz_1459602552896_0.22338018706068397"
+  },
+  "_npmUser": {
+    "name": "Alireza Alidoust",
+    "email": "a.alidoost@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "passport-tosan@^0.1.2",
+    "scope": null,
+    "escapedName": "passport-tosan",
+    "name": "passport-tosan",
+    "rawSpec": "^0.1.2",
+    "spec": ">=0.1.2 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-tosan/-/passport-tosan-0.1.2.tgz",
+  "_shasum": "099eec9f9fd6b39c87112b25a35b0c68d7090ff8",
+  "_shrinkwrap": null,
+  "_spec": "passport-tosan@^0.1.2",
+  "_where": "/Users/alireza/Workspace/Nivo/Nivo-BackendAPI",
+  "author": {
+    "name": "Alireza Alidoust",
+    "email": "a.alidoost@gmail.com",
+    "url": "https://github.com/sunnystatue"
+  },
+  "bugs": {
+    "url": "http://github.comsunnystatue/passport-tosan/issues"
+  },
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "description": "Tosan authentication strategy for Passport.",
+  "devDependencies": {
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.2.x",
+    "mocha": "1.x.x"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "099eec9f9fd6b39c87112b25a35b0c68d7090ff8",
+    "tarball": "https://registry.npmjs.org/passport-tosan/-/passport-tosan-0.1.2.tgz"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "gitHead": "531cd5065b65411adc1d4ad99bdeca26dacdeaaa",
+  "homepage": "https://github.comsunnystatue/passport-tosan#readme",
+  "keywords": [
+    "passport",
+    "tosan",
+    "abplus",
+    "bank",
+    "ayande",
+    "ayandeh",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "maintainers": [
+    {
+      "name": "Alireza Alidoust",
+      "email": "a.alidoost@gmail.com"
+    }
+  ],
+  "name": "passport-tosan",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.comsunnystatue/passport-tosan.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "version": "0.1.2"
+}
