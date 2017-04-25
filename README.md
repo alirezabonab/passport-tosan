@@ -1,6 +1,6 @@
 # passport-tosan
 
-[Passport](http://passportjs.org/) strategy for authenticating with [Tosan](http://pfm.abplus.ir/)
+[Passport](http://passportjs.org/) strategy for authenticating with [Tosan](Tosanboom.com/)
 using the OAuth 2.0 API.
 
 This module lets you authenticate using Tosan in your Node.js applications.
@@ -17,7 +17,7 @@ unobtrusively integrated into any application or framework that supports
 
 #### Configure Strategy
 
-The Tosan authentication strategy authenticates users using a ABPlus
+The Tosan authentication strategy authenticates users using a Tosan Core Banking
 account and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
 `options` specifying an app ID, app secret, callback URL.
