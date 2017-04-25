@@ -58,6 +58,11 @@ application:
         res.redirect('/');
       });
 
+It is possible to set bankId from url query--strings : 
+
+    http://localhost:3000/auth/tosan?bank_id=CIYBIR
+
+
 ## Examples
 
 For a complete, working example, refer to the [login example](https://github.comsunnystatue/passport-tosan/tree/master/examples/login).
