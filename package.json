@@ -106,5 +106,5 @@
   "scripts": {
     "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
   },
-  "version": "0.1.9git"
+  "version": "0.2.0"
 }
